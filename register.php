@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     Role: 
     <select name="role">
         <option value="customer">Customer</option>
-        <!-- <option value="admin">Admin</option> -->
+        <option value="admin">Admin</option>
     </select><br>
     <button type="submit">Register</button>
 </form>
